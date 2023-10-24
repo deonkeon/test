@@ -1,0 +1,15 @@
+package chap99_homework;
+
+public class CheckStr2 {
+
+	public static void main(String[] args) {
+		String[] arr = { "b", "c", "s", "i", "i", "o", "q", "n", "t", "m", "l", "t" };
+
+		for (int i = 0; i <= arr.length - 9; i++) {
+			String word = arr[i] + arr[i + 4] + arr[i + 8];
+			if (word.equals("bit") || word.equals("com") || word.equals("sql") || word.equals("int")) {
+				System.out.println(word);
+			}
+		}
+	}
+}

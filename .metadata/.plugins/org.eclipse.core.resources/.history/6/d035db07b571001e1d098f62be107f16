@@ -1,0 +1,10 @@
+package chap99_homework;
+
+public class CheckStr2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] str = { 'b', 'c', 's', 'i', 'i', 'o', 'q', 'n', 't', 'm', 'l', 't' };
+	}
+
+}

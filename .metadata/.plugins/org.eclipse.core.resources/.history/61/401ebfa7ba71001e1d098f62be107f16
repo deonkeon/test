@@ -1,0 +1,18 @@
+package chap99_homework;
+
+public class CheckStr2 {
+
+	public static void main(String[] args) {
+		char[] ch = { 'b', 'c', 's', 'i', 'i', 'o', 'q', 'n', 't', 'm', 'l', 't' };
+		String input = new String(ch);
+
+		String[] targetWords = { "bit", "com", "sql", "int" };
+
+		for (String word : targetWords) {
+			if (input.contains(word)) {
+				System.out.println(word);
+			
+			}
+		}
+	}
+}

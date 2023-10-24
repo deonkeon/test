@@ -1,0 +1,26 @@
+package chap99_homework;
+
+import java.util.Scanner;
+
+public class CheckStr1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("문자열을 입력해주세요.");
+		String str = sc.nextLine();
+		String answer = "";
+		int num = str.length() / 2;
+
+		for (int i = 0; i < str.length(); i++) {
+			if (str.length() % 2 == 0) {
+				answer = str.substring(num - 1, num + 1);
+			} else {
+				answer = str.substring(num, num + 1);
+			}
+		}
+		System.out.println(answer);
+
+	}
+
+}

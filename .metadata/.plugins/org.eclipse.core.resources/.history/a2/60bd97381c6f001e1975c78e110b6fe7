@@ -1,0 +1,17 @@
+package chap12_interface.mulitinyerit;
+
+public class InterFaceChild implements Mother2, Father2 {
+
+	@Override
+	public void repair() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void calm() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
